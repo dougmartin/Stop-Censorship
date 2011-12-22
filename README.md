@@ -1,8 +1,8 @@
 # stopcensorship.js #
 
-(C) 2011 by Doug Martin (@dougmartin)
+(C) 2011 by Doug Martin ([@dougmartin][1])
 
-Licensed under the MIT license: [http://www.opensource.org/licenses/mit-license.php][1]
+Licensed under the MIT license: [http://www.opensource.org/licenses/mit-license.php][2]
 
 ## What is this? ##
 
@@ -16,16 +16,18 @@ current session by clicking on the "Remove this" link.
 
 Here is an example of Hacker News censored using the script:
 
-[http://dougmart.in/stopcensorship/test.html][2]
+[http://dougmart.in/stopcensorship/test.html][3]
 
 ## Usage ##
 
-First download script from here: [https://github.com/dougmartin/Stop-Censorship/zipball/master][3]
+First download script from here: [https://github.com/dougmartin/Stop-Censorship/zipball/master][4]
 
 and then include the following script tag anywhere on your page:
 
     <script type="text/javascript" src="stopcensorship.js"></script>
 
-  [1]: http://www.opensource.org/licenses/mit-license.php
-  [2]: http://dougmart.in/stopcensorship/test.html
-  [3]: https://github.com/dougmartin/Stop-Censorship/zipball/master
+
+  [1]: https://twitter.com/#!/dougmartin
+  [2]: http://www.opensource.org/licenses/mit-license.php
+  [3]: http://dougmart.in/stopcensorship/test.html
+  [4]: https://github.com/dougmartin/Stop-Censorship/zipball/master
