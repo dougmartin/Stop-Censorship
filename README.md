@@ -30,6 +30,12 @@ You can alternativly include a version hosted on [cdnjs.com][5]:
 
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/sopa/1.0/stopcensorship.js"></script>
 
+## Wordpress Plugin (new) ##
+
+Christopher Davis created a Wordpress plugin to automatically add the script to your blog.  To use it just
+unzip the files into a new "stopcensorship" folder in your plugins folder and then activate it in your
+Wordpress admin.
+	
   [1]: https://twitter.com/#!/dougmartin
   [2]: http://www.opensource.org/licenses/mit-license.php
   [3]: http://dougmart.in/stopcensorship/test.html

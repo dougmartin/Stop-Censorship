@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Stop Censorsihp
+Plugin Name: Stop Censorship
 Author: Doug Martin
 Description: Adds Doug Martin's stopcensorship.js to your WordPress website.
 */
