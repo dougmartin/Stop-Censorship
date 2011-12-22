@@ -33,7 +33,11 @@
 				if (styles) {
 					for (i in styles) {
 						if (styles.hasOwnProperty(i)) {
-							node.style[i] = styles[i];
+							try {
+								node.style[i] = styles[i];
+							}
+							catch (e) {
+							}
 						}
 					}
 				}
