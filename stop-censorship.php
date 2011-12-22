@@ -2,7 +2,7 @@
 /*
 Plugin Name: Stop Censorsihp
 Author: Doug Martin
-Description: Add's Doug Martin's stopcensorship.js to your WordPress website.
+Description: Adds Doug Martin's stopcensorship.js to your WordPress website.
 */
 
 add_action( 'wp_enqueue_scripts', 'stop_censorship_enqueue_scripts' );
