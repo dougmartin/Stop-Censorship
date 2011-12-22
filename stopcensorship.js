@@ -29,27 +29,22 @@
 		function createStyledNode(type, text, nodeStyles) {
 			var i, node, e;
 			
+			function applyStyles(styles) {
+				if (styles) {
+					for (i in styles) {
+						if (styles.hasOwnProperty(i)) {
+							node.style[i] = styles[i];
+						}
+					}
+				}
+			}
+			
 			node = document.createElement(type);
 			
 			node.innerHTML = text;
 			
-			for (i in baseStyles) {
-				if (baseStyles.hasOwnProperty(i)) {
-					try {
-						node.style[i] = baseStyles[i];
-					}
-					catch (e) {
-					}
-				}
-			}
-			
-			if (nodeStyles) {
-				for (i in nodeStyles) {
-					if (nodeStyles.hasOwnProperty(i)) {
-						node.style[i] = nodeStyles[i];
-					}
-				}
-			}
+			applyStyles(baseStyles);
+			applyStyles(nodeStyles);
 			
 			return node;
 		}

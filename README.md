@@ -6,10 +6,16 @@ Viewer can remove censoring for the current session by clicking on the "Remove t
 
 (C) 2011 by Doug Martin (@dougmartin or http://dougmart.in/)
 
-Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+Licensed under the MIT license: [http://www.opensource.org/licenses/mit-license.php][1]
 
 ## Usage ##
 
-Download script from here: 
+First download script from here: [https://github.com/dougmartin/Stop-Censorship/zipball/master][2]
 
-<script type="text/javascript" src="stopcensorship.js"></script>
+and then include the following script tag anywhere on your page
+
+    <script type="text/javascript" src="stopcensorship.js"></script>
+
+
+  [1]: http://www.opensource.org/licenses/mit-license.php
+  [2]: https://github.com/dougmartin/Stop-Censorship/zipball/master
