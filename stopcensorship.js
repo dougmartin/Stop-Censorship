@@ -119,6 +119,8 @@
 			"margin": "0",
 			"padding": "5px 0",
 			"width": "100%",
+			"borderTop": "2px solid #fff",
+			"borderBottom": "2px solid #fff",
 			"zIndex": 2147483647
 		});
 		
