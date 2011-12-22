@@ -26,8 +26,12 @@ and then include the following script tag anywhere on your page:
 
     <script type="text/javascript" src="stopcensorship.js"></script>
 
+You can alternativly include a version hosted on [cdnjs.com][5]:
+
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/sopa/1.0/stopcensorship.js"></script>
 
   [1]: https://twitter.com/#!/dougmartin
   [2]: http://www.opensource.org/licenses/mit-license.php
   [3]: http://dougmart.in/stopcensorship/test.html
   [4]: https://github.com/dougmartin/Stop-Censorship/zipball/master
+  [5]: http://cdnjs.com
