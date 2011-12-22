@@ -111,7 +111,8 @@
 		
 		// and the link styles
 		linkStyles = {
-			"textDecoration": "underline"
+			"textDecoration": "underline",
+			"cursor": "pointer"
 		};
 		
 		// add bar to top of page with link to anti-censor site and link to set cookie
@@ -131,9 +132,7 @@
 		stopLink = createStyledNode("a", "STOP CENSORSHIP", linkStyles);
 		stopLink.href = "http://americancensorship.org/";
 		
-		removeLink = createStyledNode("a", "Remove this", {
-			"textDecoration": "underline"
-		});
+		removeLink = createStyledNode("a", "Remove this", linkStyles);
 		removeLink.href = "#";
 		removeLink.onclick = removeBar;
 		
